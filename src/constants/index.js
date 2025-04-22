@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, siliconworx, tesla, hyperion } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,18 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    wordpress,
+    php,
+    sql,
+    laravel,
+    java,
+    gamehub,
+    portfolio,
+    lock,
+    hang,
+    hockey,
+    L
 } from "../assets/icons";
 
 export const skills = [
@@ -63,19 +74,19 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
+        imageUrl: wordpress,
+        name: "Wordpress",
+        type: "CMS",
     },
     {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
+        imageUrl: php,
+        name: "php",
+        type: "Backend",
     },
     {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
+        imageUrl: sql,
+        name: "sql.js",
+        type: "Database",
     },
     {
         imageUrl: nodejs,
@@ -88,14 +99,14 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
+        imageUrl: laravel,
+        name: "laravel",
+        type: "Frontend",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
     },
     {
         imageUrl: tailwindcss,
@@ -111,55 +122,43 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
+        title: "Letheric Solutions",
         company_name: "Tesla",
-        icon: tesla,
+        icon: L,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jan 2024 - present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Maintained a pure PHP application, implementing requested changes and improvements.",
+            "Managed database changes, including adding and updating tables.",
+            "Created and integrated new pages within the application to improve functionality and user experience.",
+            "Deployed updates to a support site for client review, ensuring stability before pushing changes to production.",
+            "Worked on various backend tasks of the database management, improving system performance and usability.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Junior Developer & web Designer",
+        company_name: "Siliconworx",
+        icon: siliconworx,
+        iconBg: "#47f997",
+        date: "Jan 2020 - present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed responsive websites using HTML5, CSS3, and JavaScript, ensuring compatibility across various devices and browsers.",
+            "Worked with frameworks like React to streamline the design process and enhance user experience.",
+            "Collaborated with senior developers to implement features using React and PHP, contributing to the full software development lifecycle.",
+            "Maintained code quality through version control systems, including Git, and participated in code reviews Engaged in continuous learning to stay updated with the latest industry trends and technologies, applying them to current projects.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "HyperionDev, Software Engineering Bootcamp",
+        company_name: "HyperionDev",
+        icon: hyperion,
+        iconBg: "#3475a6",
+        date: "Mar 2023 - Oct 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "The bootcamp aims to introduce and develop full-stack and software engineering knowledge by completing practical activities.",
+            "Achieved an overall average of 100% for the bootcamp tasks",
+            "Mastered Javascript programming within six months, enhancing coding skills and efficiency in frameworks and backend modules.",
+            "Acquired hands-on experience with frameworks such as React and Laravel while also working with Java on some applications. ",
         ],
     },
 ];
@@ -173,56 +172,49 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Gareth-Geld',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/gareth-geldenhuys-370a191b1/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
+        iconUrl: gamehub,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Game Hub',
+        description: 'Built a gamehub web application with the use of an API to look search and filter games',
+        link: 'https://github.com/Gareth-Geld/gameHub',
     },
     {
-        iconUrl: estate,
+        iconUrl: portfolio,
+        theme: 'btn-back-red',
+        name: '3D Portfolio',
+        description: 'Developed a 3d portfolio to display my work experience and projects in a unique way using Three.js',
+        link: 'https://github.com/Gareth-Geld/3D-Portfolio',
+    },
+    {
+        iconUrl: lock,
+        theme: 'btn-back-green',
+        name: 'Credential Locker',
+        description: 'Developed a password keeper for a large company with its own security built in',
+        link: 'https://github.com/Gareth-Geld/CredentialLocker',
+    },
+    {
+        iconUrl: hang,
+        theme: 'btn-back-blue',
+        name: ' Hangman',
+        description: 'Developed a hangman game using basic JavaScript and HTML',
+        link: 'https://github.com/Gareth-Geld/hangman',
+    },
+    {
+        iconUrl: hockey,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        name: 'IceHockey-Website',
+        description: 'Built a website to showcase NHL and different effect and a blog liking and bookmarking functionality',
         link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
