@@ -123,7 +123,7 @@ export const skills = [
 export const experiences = [
     {
         title: "Letheric Solutions",
-        company_name: "Tesla",
+        company_name: "Letheric Solutions",
         icon: L,
         iconBg: "#fbc3bc",
         date: "Jan 2024 - present",
