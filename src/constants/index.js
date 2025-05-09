@@ -37,6 +37,21 @@ import {
     L
 } from "../assets/icons";
 
+import {
+    contractToKil,
+    CQCBusiness,
+    cultCulture,
+    miracleRetailPark,
+    myWebsite,
+    NewSiliconworxSite,
+    olympus,
+    PCfixIt,
+    SallyWilliams,
+    SiliconworxSite
+} from "../assets/WebsiteImages";
+
+
+
 export const skills = [
     {
         imageUrl: css,
@@ -216,5 +231,68 @@ export const projects = [
         name: 'IceHockey-Website',
         description: 'Built a website to showcase NHL and different effect and a blog liking and bookmarking functionality',
         link: 'https://github.com/adrianhajdin/projects_realestate',
+    }
+];
+
+export const websites = [
+    {
+        image: SallyWilliams,
+        name: 'Sally Williams',
+        description: 'This is a wordpress site developed for a nougat company',
+        link: 'https://sallywilliamsfinefoods.com/',
+    },
+    {
+        image: myWebsite,
+        name: 'My portfolio',
+        description: 'Developed a 3d portfolio in React to display my work experience and projects in a unique way using Three.js',
+        link: 'https://garethgeldenhuys.co.za/',
+    },
+    {
+        image: NewSiliconworxSite,
+        name: 'New Siliconworx Site',
+        description: 'This site is waiting on new content but has been developed, It was developed as a custom coded Wordpress theme',
+        link: 'https://www.sili-stage.online/',
+    },
+    {
+        image: olympus,
+        name: ' Olympus-Automation',
+        description: 'This site was developed in Wordpress using the elementor Plugin',
+        link: 'https://olympus-automation.co.za/',
+    },
+    {
+        image: PCfixIt,
+        name: 'PCFIXIT',
+        description: 'This is a custom HTML CSS and JS webpage - Made for a quick and clean design',
+        link: 'https://www.pcfixit.co.za/',
+    },
+    {
+        image: cultCulture,
+        name: 'Cult Culture',
+        description: 'This is a e-commerce Wordpress site',
+        link: 'https://www.cultculture.co.za/',
+    },
+    {
+        image: CQCBusiness,
+        name: 'CQC Business Consulting Solution',
+        description: 'This is another Wordpress site',
+        link: 'https://www.cqcbusinessolutions.co.za/',
+    },
+    {
+        image: contractToKil,
+        name: 'ContractToKil',
+        description: 'Website built in Afrihosts visual web builder',
+        link: 'https://www.contractokil.co.za/',
+    },
+    {
+        image: miracleRetailPark,
+        name: 'Miracle Retail Park',
+        description: 'This is another Wordpress site',
+        link: 'https://miracleretailpark.co.za/',
+    },
+    {
+        image: SiliconworxSite,
+        name: 'Siliconworx',
+        description: 'This is a Wordpress site',
+        link: 'https://siliconworx.co.za/',
     }
 ];
