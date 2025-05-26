@@ -37,7 +37,10 @@ import lock from './lock.svg'
 import hang from './hang.svg'
 import hockey from './hockey.svg'
 import L from './letter-L.svg'
-
+import githubSocial from './githubSocial.svg'
+import websiteSocial from './websiteSocial.svg'
+import email from './email.svg'
+import webFlow from './webflow-icon.svg'
 export {
     css,
     express,
@@ -77,5 +80,9 @@ export {
     lock,
     hang,
     hockey,
-    L
+    L,
+    githubSocial,
+    websiteSocial,
+    email,
+    webFlow
 }

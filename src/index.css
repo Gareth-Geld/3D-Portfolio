@@ -181,3 +181,99 @@ body:has(.card[data-color="green"]:hover) {
     box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
         0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
+
+
+
+/* Social Button - These can be found in the CTA Footer*/
+
+.social-btns {
+    height: 130px;
+    margin: auto;
+    font-size: 0;
+    text-align: left;
+    position: relative;
+    top: 50px;
+    margin-left: -20px;
+}
+
+.social-btns .socialB {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+    opacity: 0.99;
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.310, -0.105, 0.430, 1.590);
+}
+
+.social-btns .socialB:before {
+    content: '';
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.310, -0.105, 0.430, 1.590);
+    top: 90%;
+    left: -110%;
+}
+
+.social-btns .socialB .fa {
+    font-size: 38px;
+    vertical-align: middle;
+    transform: scale(0.8);
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.310, -0.105, 0.430, 1.590);
+}
+
+/* Per-site colors */
+.social-btns .socialB.contactMe:before,
+.social-btns .socialB.contact .fa {
+    background-color: #69b25f;
+    color: #69b25f;
+}
+
+.social-btns .socialB.github:before,
+.social-btns .socialB.github .fa {
+    background-color: grey;
+    color: grey;
+}
+
+.social-btns .socialB.linkedIn:before,
+.social-btns .socialB.linkedIn .fa {
+    background-color: #07dfb0;
+    color: #07dfb0;
+}
+
+.social-btns .socialB.website:before,
+.social-btns .socialB.website .fa {
+    background-color: #F26798;
+    color: #F26798;
+}
+
+.social-btns .socialB.skype:before,
+.social-btns .socialB.skype .fa {
+    background-color: #00AFF0;
+    color: #00AFF0;
+}
+
+/* Hover & focus active state */
+.social-btns .socialB:hover:before,
+.social-btns .socialB:focus:before {
+    top: -10%;
+    left: -10%;
+}
+
+.social-btns .socialB:hover .fa,
+.social-btns .socialB:focus .fa {
+    color: #fff;
+    transform: scale(1);
+}

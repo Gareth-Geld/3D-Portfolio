@@ -34,7 +34,11 @@ import {
     lock,
     hang,
     hockey,
-    L
+    L,
+    githubSocial,
+    websiteSocial,
+    email,
+    webFlow
 } from "../assets/icons";
 
 import {
@@ -91,6 +95,11 @@ export const skills = [
     {
         imageUrl: wordpress,
         name: "Wordpress",
+        type: "CMS",
+    },
+    {
+        imageUrl: webFlow,
+        name: "Webflow",
         type: "CMS",
     },
     {
@@ -181,18 +190,27 @@ export const experiences = [
 export const socialLinks = [
     {
         name: 'Contact',
-        iconUrl: contact,
+        iconUrl: email,
         link: '/contact',
+        class: 'socialB flex items-center justify-center contactMe',
     },
     {
         name: 'GitHub',
         iconUrl: github,
         link: 'https://github.com/Gareth-Geld',
+        class: 'socialB flex items-center justify-center github',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/gareth-geldenhuys-370a191b1/',
+        class: 'socialB flex items-center justify-center linkedIn',
+    },
+    {
+        name: 'Websites',
+        iconUrl: websiteSocial,
+        link: 'https://www.garethgeldenhuys.co.za/websites',
+        class: 'socialB flex items-center justify-center website',
     }
 ];
 
