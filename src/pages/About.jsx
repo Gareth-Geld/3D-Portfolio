@@ -20,9 +20,8 @@ const About = () => {
       </h1>
       <div className="mt-5 flex flex-col text-slate-500">
         <p>
-          Dynamic Junior Developer and Web Designer with over five years of
-          experience dedicated to creating engaging and efficient web
-          applications.
+          A Web Developer and Web Designer with over five years of experience
+          dedicated to creating engaging and efficient web applications.
         </p>
       </div>
       <div className="py-10 flex flex-col">
